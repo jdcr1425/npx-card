@@ -1,10 +1,12 @@
 {
   "name": "juancasseres",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just A Personal Card for Juan David Casseres R. (jdcr1425)",
   "main": "card.js",
   "bin": "./card.js",
-  "scripts": {"start": "nodemon card.js"},
+  "scripts": {
+    "start": "nodemon card.js"
+  },
   "keywords": [
     "card",
     "npm",
