@@ -9,17 +9,16 @@ const clear = require('clear');
 clear();
 
 const data = {
-  name: chalk.bold.green('                    Cristian Del Rio'),
-  handle: chalk.white('@cristianjdelrio'),
+  name: chalk.bold.cyan('                      Juan David Casseres Rodriguez'),
+  handle: chalk.white('@jdcr1425'),
   work: `${chalk.white('Backend Developer at')} ${chalk
     .hex('#cca918')
     .bold('Condor Labs')}`,
-  github: chalk.gray('https://github.com/') + chalk.green('cristianjdelrio'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('cristianjdelrio'),
-  linkedin:
-    chalk.gray('https://linkedin.com/in/') + chalk.blue('cristianjdelrio'),
-  web: chalk.cyan('https://cristianjdelrio.com'),
-  npx: chalk.red('npx') + ' ' + chalk.white('cristianjdelrio'),
+  github: chalk.gray('https://github.com/') + chalk.green('jdcr1425'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('juan_casseres7'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('juancasseres'),
+  web: chalk.cyan('https://juancasseres.me'),
+  npx: chalk.red('npx') + ' ' + chalk.white('juancasseres'),
 
   labelWork: chalk.white.bold('       Work:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
@@ -38,27 +37,27 @@ const me = boxen(
     `${data.labelTwitter}  ${data.twitter}`,
     `${data.labelGitHub}  ${data.github}`,
     `${data.labelLinkedIn}  ${data.linkedin}`,
-    `${data.labelWeb}  ${data.web}`,
+    //`${data.labelWeb}  ${data.web}`,
     ``,
     `${data.labelCard}  ${data.npx}`,
     ``,
     `${chalk.bold(
-      "- As Obi Wan says - Hello There! I'm a passionated MERN stack"
+      '- Mae West - You only live once, but if you do it right, once is enough.'
     )}`,
-    `${chalk.bold(
+    ,
+    /* `${chalk.bold(
       "developer, I'm from Colombia and I'm in love with 3 things:"
-    )}`,
-    ``,
-    `${chalk.bold('1. Learning new Things 🧠')}`,
+    )}` */ ``,
+    /* `${chalk.bold('1. Learning new Things 🧠')}`,
     `${chalk.bold('2. Inviting people to know the tech world 💻')}`,
-    `${chalk.bold('3. My family 👪')}`,
+    `${chalk.bold('3. My family 👪')}`, */
   ].join('\n'),
   {
     margin: 1,
     float: 'center',
     padding: 1,
-    borderStyle: 'single',
-    borderColor: 'blue',
+    borderStyle: 'double',
+    borderColor: 'yellow',
   }
 );
 

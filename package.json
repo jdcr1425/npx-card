@@ -1,12 +1,10 @@
 {
-  "name": "cristianjdelrio",
+  "name": "juancasseres",
   "version": "1.0.0",
-  "description": "Just A Personal Card for Cristian Del Rio (CristianJDelRio)",
+  "description": "Just A Personal Card for Juan David Casseres R. (jdcr1425)",
   "main": "card.js",
   "bin": "./card.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {"start": "nodemon card.js"},
   "keywords": [
     "card",
     "npm",
@@ -17,14 +15,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:CristianJDelRio/npx-card.git"
+    "url": "git+ssh://git@github.com:jdcr1425/npx-card.git"
   },
-  "author": "CristianJDelRio",
+  "author": "Juan David Casseres R.",
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.1.2",
     "chalk": "^4.1.2",
     "clear": "^0.1.0",
     "prettyjson": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
