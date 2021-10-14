@@ -53,7 +53,7 @@ const me = boxen(
     `${chalk.bold('3. My family 👪')}`, */
   ].join('\n'),
   {
-    margin: 1,
+    margin: 2,
     float: 'center',
     padding: 1,
     borderStyle: 'double',
