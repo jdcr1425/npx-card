@@ -93,6 +93,19 @@ New tag after applying prefix is v0.1.3.
 
 STYLE
 
+style added
+
+Previous tag was v0.1.3, previous version was 0.1.3.
+Analyzing commit: style added
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.4.
+New tag after applying prefix is v0.1.4.
+
+REFACTOR 
+
+refactor smt
+
 */
 
 console.log(me);
