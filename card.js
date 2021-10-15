@@ -82,6 +82,17 @@ New version is 0.1.1.
 
 DOCS
 
+docs to semantic commit
+
+Previous tag was v0.1.2, previous version was 0.1.2.
+Analyzing commit: docs to semantic commit
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.3.
+New tag after applying prefix is v0.1.3.
+
+STYLE
+
 */
 
 console.log(me);
