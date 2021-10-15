@@ -61,4 +61,27 @@ const me = boxen(
   }
 );
 
+/* feat: A new feature
+fix: A bug fix
+docs: Documentation only changes
+style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+refactor: A code change that neither fixes a bug nor adds a feature
+perf: A code change that improves performance
+test: Adding missing or correcting existing tests
+chore: Changes to the build process or auxiliary tools and libraries such as documentation generation 
+
+FIX
+
+fix the margin
+
+Previous tag was v0.1.0, previous version was 0.1.0.
+Analyzing commit: fix the margin
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.1.
+
+DOCS
+
+*/
+
 console.log(me);
