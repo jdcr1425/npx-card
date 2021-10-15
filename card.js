@@ -61,7 +61,8 @@ const me = boxen(
   }
 );
 
-/* feat: A new feature
+/* 
+feat: A new feature
 fix: A bug fix
 docs: Documentation only changes
 style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
@@ -106,6 +107,28 @@ REFACTOR
 
 refactor smt
 
+Previous tag was v0.1.4, previous version was 0.1.4.
+Analyzing commit: refactor smt
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.5.
+New tag after applying prefix is v0.1.5.
+
+PERF
+
+perf smt 
+
+
+
+
+TEST
+
+test smt
+
+
+CHORE
+
+chore smt 
 */
 
 console.log(me);
