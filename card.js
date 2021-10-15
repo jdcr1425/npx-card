@@ -55,7 +55,7 @@ const me = boxen(
   {
     margin: 2,
     float: 'center',
-    padding: 1,
+    padding: 2,
     borderStyle: 'double',
     borderColor: 'yellow',
   }
