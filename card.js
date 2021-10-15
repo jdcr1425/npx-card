@@ -130,6 +130,12 @@ TEST
 
 test smt
 
+Previous tag was v0.1.6, previous version was 0.1.6.
+Analyzing commit: test smt
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.7.
+New tag after applying prefix is v0.1.7.
 
 CHORE
 
