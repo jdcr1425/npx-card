@@ -71,6 +71,12 @@ perf: A code change that improves performance
 test: Adding missing or correcting existing tests
 chore: Changes to the build process or auxiliary tools and libraries such as documentation generation 
 
+
+FEAT 
+
+feat smt 
+
+
 FIX
 
 fix the margin
@@ -140,6 +146,13 @@ New tag after applying prefix is v0.1.7.
 CHORE
 
 chore smt 
+
+Previous tag was v0.1.7, previous version was 0.1.7.
+Analyzing commit: chore smt
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.8.
+New tag after applying prefix is v0.1.8.
 */
 
 console.log(me);
