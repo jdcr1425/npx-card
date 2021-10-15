@@ -76,6 +76,12 @@ FEAT
 
 feat smt 
 
+Previous tag was v0.1.8, previous version was 0.1.8.
+Analyzing commit: feat smt
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.9.
+New tag after applying prefix is v0.1.9.
 
 FIX
 
