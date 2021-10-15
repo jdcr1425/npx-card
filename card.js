@@ -118,7 +118,12 @@ PERF
 
 perf smt 
 
-
+Previous tag was v0.1.5, previous version was 0.1.5.
+Analyzing commit: perf smt
+The commit should not trigger a release
+Analysis of 1 commits complete: no release
+New version is 0.1.6.
+New tag after applying prefix is v0.1.6.
 
 
 TEST
