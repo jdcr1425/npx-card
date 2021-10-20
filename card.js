@@ -88,7 +88,7 @@ FIX
 fix the margin
 
 Previous tag was v0.1.0, previous version was 0.1.0.
-Analyzing commit: fix the margin
+Analyzing commit: fix the margin  
 The commit should not trigger a release
 Analysis of 1 commits complete: no release
 New version is 0.1.1.
